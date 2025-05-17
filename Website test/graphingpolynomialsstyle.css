@@ -1,0 +1,11 @@
+#graph{
+    position: absolute;
+    text-align:center;
+}
+button{
+    position: absolute;
+    color : rgb(78, 204, 67);
+    top:auto;
+    left:60%;
+    background-image:url("images/yellow.png");
+}
