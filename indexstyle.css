@@ -18,6 +18,8 @@
     left:420px;
     top: 275px;
     border:hidden;
+    margin:0px;
+    border:0px;
     background-size:contain;
     background-image:url(images/graphingpolynomialslogo.png);
 }
@@ -28,22 +30,23 @@
     left:395px;
     top: 250px;
 }
-#CCF{
-    position: relative;
-    top:200px;
-    left:100px;
-    height:200px;
-    width:200px;
-}
-#CCF:hover{
-    height:300px;
-    width:300px;
-    cursor:pointer;
-    top:150px;
-    left:50px;
-}
+
 #linktocontacts{
-    position:fixed;
-    top:95%;
-    left:90%;
+    position: absolute;
+    color : rgb(0, 0, 0);
+    top:auto;
+    left:60%;
+    height:100px;
+    width:100px;
+    left:600px;
+    top: 275px;
+    border:hidden;
+    background-size:contain;
+    background-image:url(images/contactlogo.png);
+    margin:0px;
+    border:0px;
+}
+#linktocontacts:hover{
+    transform: rotate(20deg);
+    cursor:pointer;
 }
