@@ -20,7 +20,7 @@ var button = document.getElementById("plot");
 button.onclick = function Hello(){
   x=[]
   y=[]
-    power = parseInt(prompt("Please enter power", "2"))
+    power = parseFloat(prompt("Please enter power", "2"))
     for (let i=-1000;i<1000;i++ ) {
       x.push(i);
       y.push(i**(power));
